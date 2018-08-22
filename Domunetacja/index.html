@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.png">
+
+    <title>APNOZ</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="../../assets/js/html5shiv.js"></script>
+      <script src="../../assets/js/respond.min.js"></script>
+    <![endif]-->
+
+	<style>
+	body{width:960px;margin:auto;padding:20px;}
+	ol li ol{margin-left:25px;}
+	</style>	
+  </head>
+  <body>
+  <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">APNOZ</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+            <li><a href="#problemy">Problemy</a></li>
+            <li><a href="#instrukcja">Instrukcja</a></li>
+            <li><a href="#dane">Dane</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+<div>
+    <h1>Apnoz <small> Automatyzator pracy nauczycieli przy ocenach z zachowania</small></h1>
+	<div class="row"><div class="col-md-12"><ol>
+	<li><h2><span class="label label-danger">Problemy:</span></h2>
+	<ol style="border-left:1px solid black;">
+	<li>Błąd <strong>msvcr100.dll</strong><p>Ten błąd spowodawany jest brakiem zainstalowanego Microsoft Visual C++ 2010. <a href="http://www.microsoft.com/en-us/download/details.aspx?id=5555">Wystarczy pobrać i zainstalować</a>
+	<img src="http://www.reviversoft.com/blog/wp-content/uploads/2013/10/msvcr100_dll_is_missing_error_popup.png"class="img-thumbnail">
+	</li>
+	<li>
+	<strong>Źle wygenerowany raport (brak ptaszka albo pomieszane dane)</strong><p> Błąd spowodowany jest błędnymi danymi. Trzeba przejrzeć wszystko w poszukiwaniu wierszy danych, które przeszły do kolejnej linijki. Np.<blockquote><p class="text-danger">Uczestnicznie w zawodach i reprezentowanie<br>szkoły</p></blockquote> Trzeba zamienić na <blockquote><p class="text-success">Uczestnicznie w zawodach i reprezentowanie szkoły</p></blockquote> Nim nowsza wersja, tym mniejsze prawdopodobieństwo błędów tego typu.
+	</li>
+	</ol>
+	</li>
+	<li>
+	<h2>
+	<span class="label label-info">Instrukcja:</span>
+	</h2>
+
+	<ol><li><strong>Rozpakowywanie i włącznie</strong>
+	<p>Pobrany program jest spakowany, czyli może być w jednym pliku. APNOZ składa się z kilku plików, więc nalezy go najpierw rozpakować.</li>
+	Po rozpakowaniu trzeba włączyć <b>main_window.exe<b>
+	<img src="obrazki/wlaczanie.png" alt="wlaczanie" class="img-thumbnail">
+	</p>
+	
+	
+	</ol>
+
+	</li>
+	</ol>
+	</div>
+	<div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
